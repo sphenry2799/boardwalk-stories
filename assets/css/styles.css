@@ -9,6 +9,8 @@
     --highlight-color: #416a8e;
     --light-highlight-color: #7a9fc2;
 }
+
+/* Global styles */
  body {
     font-family: var(--primary-font);
    }
@@ -20,7 +22,15 @@
 .sub-heading-color {
     color: var(--light-highlight-color);
  }
+/* Navbar */
 
+ #navbar {
+        background-color: var(--primary-color);
+ }
+
+ #navbar .logo {
+    width: 30px;
+ }
  /* grid visualisation CSS for testing */
 
 /* .container,
