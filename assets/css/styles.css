@@ -70,4 +70,38 @@ h1, h2 {
     background-color: lightgray;
 }
   */
- 
+ /* Media queries tablets, 786px and up */
+
+ @media screen and (min-width: 786px) {
+/* Make all services cards consistent */
+    #services .card-body {
+        min-height: 191px;
+    }
+ }
+    
+ /* Large devices (small laptops, 992px and up */
+
+ @media screen and (min-width: 992px) {
+/* Make all services cards consistent */
+    #services .card-body {
+        min-height: auto;
+    }
+ }
+    
+  /* xl devices (large desktops, 1200px and up */
+
+ @media screen and (min-width: 1200px) {
+/* Make all services cards consistent */
+    #services .card-body {
+        min-height: 220px;
+    }
+ }
+     /* xxl devices (larger desktops, 1400px and up */
+
+ @media screen and (min-width: 1400px) {
+/* Make all services cards consistent */
+    #services .card-body {
+        min-height: 195px;
+    }
+ }
+    
